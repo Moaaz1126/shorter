@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Shortly 
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="shortcut icon", href="img/link.png", type="image/x-icon")
+    body 
+        nav 
+            h1 Shortly
+            a(href="#") Home 
+            a(href="#about") About 
+        #app 
+            h1 More than just shorter links 
+            img(src="img/illustration-working.svg", alt="")
+            button(class="button") Get Started 
+            #link
+                input(type="text", placeholder="The Long URL")
+                button(onclick="click2()") Shorten it 
+            #last 
+        #about 
+            h1 About us 
+            p(class="p") Hello, I'm Moaz Ahmed, and this is one of the Portfolio projects
+            #con 
+                .div 
+                    div 
+                        img(src="img/icon-fully-customizable.svg", alt="")
+                    h3 Diversity
+                    p You can choose a link from three links
+                .div
+                    div 
+                        img(src="img/icon-detailed-records.svg", alt="")
+                    h3 speed
+                    p Fast link conversion
+                .div
+                    div 
+                        img(src="img/icon-brand-recognition.svg", alt="")
+                    h3 Convert all links
+                    p You can convert all links of all kinds
+        header 
+            p Made With 💙 By Osama Elzero © 2022
+        script(src="js/script.js") 
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js")
